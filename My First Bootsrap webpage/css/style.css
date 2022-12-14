@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.4s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
+}
+nav ul li a:hover {
+  border-top: 2px solid black;
+  border-bottom: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.082);
+  border-radius: 16px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+nav #search button:hover {
+  color: black;
+}
+#home {
+  background: url(../images/img1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+#aboutus .rightside {
+  float: right;
+  height: 100%;
+}
+#aboutus .leftside {
+  float: left;
+  height: 100%;
+}
+#ourservices {
+  height: 100%;
+}
+.hover:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+#contactus .left1 {
+  float: left;
+  width: 50%;
+  /* height: 100vh; */
+}
+#contactus .right {
+  float: right;
+  width: 100%;
+  /* height: 100vh; */
+  border: 1px solid black;
+}
+#contactus form #sendbutton:hover {
+  background-color: rgb(12, 12, 12);
+  color: white;
+  transition: 0.5s;
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+
+#contactus #icons .col i:hover {
+  cursor: pointer;
+  transform: scale(2);
+}
